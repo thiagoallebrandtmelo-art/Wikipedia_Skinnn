@@ -1,0 +1,53 @@
+<div class="wiki-container">
+    
+        <aside class="sidebar">
+            <h3>Esfoliantes</h3>
+            <a href="#glicolico">Ácido Glicólico</a>
+            <a href="#salicilico">Ácido Salicílico</a>
+            
+            <h3>Vitaminas</h3>
+            <a href="#niacinamida">Niacinamida</a>
+            <a href="#vitamina-c">Vitamina C</a>
+        </aside>
+
+        <main class="conteudo-principal">
+            
+            <section id="glicolico" class="ativo-secao">
+                <h2>Ácido Glicólico</h2>
+                <p><strong>🔬 Como funciona:</strong> Penetra profundamente acelerando a renovação celular...</p>
+                <p><strong>🎯 Benefícios:</strong> Clareia manchas e melhora a textura.</p>
+            </section>
+
+            <section id="salicilico" class="ativo-secao">
+                <h2>Ácido Salicílico</h2>
+                <p><strong>🔬 Como funciona:</strong> Penetra nos poros para dissolver o sebo...</p>
+                <p><strong>🎯 Benefícios:</strong> Controla a acne e cravos.</p>
+            </section>
+
+        </main>
+        </div>
+
+
+        <section id="teste" class="ativo-secao">
+            <h2>Teste</h2>
+            <article>
+            <p><strong>⇒  Como funciona:</strong> Teste.</p>
+            <p><strong>⇒  Benefícios:</strong></p>
+            <ul>
+                <li>Teste</li>
+                <li>Teste</li>
+                <li>Teste</li>
+                <li>Teste</li>
+            </ul>
+            <p><strong>⇒  Indicado para as peles:</strong>Secas, Oleosas, Mistas e Sensíveis.</p>
+            <p><strong>⇒  Indicado para os problemas:</strong></p>
+                <ul>
+                    <li>Teste</li>
+                    <li>Teste</li>
+                    <li>Teste</li>
+                    <li>Teste</li>
+                </ul>
+            <p><strong>⇒  Para quem não é indicado:</strong>Teste.</p>
+            <p><strong>⇒  Melhor horário de uso:</strong>Pode ser usado tanto de dia quanto a noite.</p>
+            </article>
+        </section>
