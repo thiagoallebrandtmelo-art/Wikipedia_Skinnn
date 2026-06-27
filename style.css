@@ -99,7 +99,7 @@ button {
 }
 
 .banner {
-    text-align: center;
+    text-align: left;
     margin-bottom: 40px;
 }
 
@@ -121,6 +121,9 @@ button {
 }
 
 .secao article {
+    padding: 25px;
+}
+.secao article {
     margin-bottom: 20px;
 }
 
@@ -128,22 +131,15 @@ button {
     margin-bottom: 8px;
 }
 
-.oq_skincare img {
+.montar_rotina {
     display: flex;
-    height: 300px;
 }
 
 /* ========================================
-   Cards da tela inicial
+   Configurações gerais dos cards
 ======================================== */
-
-.cards_camadas-pele {
-    display: flex;
-}
-
 .card {
-    flex: 1;
-    display: block;
+    gap: 20px;
     margin: 20px;
     width: 300px;
     padding: 20px;
@@ -167,30 +163,55 @@ button {
 .card li {
     margin-left: 20px;
 }
-
 /* ========================================
-   Cards Camadas da pele
+   Cards da parte de O que é Skincare
 ======================================== */
+.oq_skincare {
+    display: flex;
+    gap: 15px;
+}
+
+.oq_skincare img {
+    width: 250px;
+    box-shadow: 0 0px 50px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.oq_skincare p {
+    font-size: 17px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+/* ========================================
+   Cards da Camadas da pele
+======================================== */
+.cards_camadas-pele {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .card_epiderme {
-    background-color: #f2dcc1;
+    background-color: #F5D6C6  ;
 }
 
 .card_derme {
-    background-color: #f0c3c3;
+    background-color: #e9ad93  ;
 }
 
 .card_hipoderme {
-    background-color: #fbeaad;
+    background-color: #d59174  ;
 }
 /* ========================================
-   Cards da parte de montar a Rotina
+   Cards da parte de mitos e verdades
 ======================================== */
-.montar_rotina {
+.cards_mito-verdade {
     display: flex;
 }
-
 .card_mito {
     background-color: #efb4b4;
+    flex: 1;
 }
 
 .card_mito li {
@@ -200,7 +221,7 @@ button {
 
 .card_verdade {
     background-color: #b4efb4;
-   
+   flex: 1;
 }
 
 .card_verdade li {
@@ -216,7 +237,6 @@ button {
 /* ========================================
    Começo da cada seção - Titulo e Imagem
 ======================================== */
-/* Container principal que divide a tela */
 .container-split {
     display: flex;
     width: 100vw;       /* Ocupa 100% da largura da tela */
@@ -284,8 +304,15 @@ button {
 .conteudo-principal {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
     flex: 1; /* Ocupa todo o resto do espaço disponível na tela */
-    padding: 40px;
     background-color: #ededed;
+    font-size: 17px;
+    padding: 5px;
+}
+
+.conteudo-principal h2 {
+    padding: 10px;
+    letter-spacing: 2px;
+    border-radius: 10px;
 }
 
 .ativo-secao {
@@ -315,6 +342,10 @@ button {
     background-color: #FFFFFF ;
 }
 
+.safira h2 {
+    background-color: #d1e4f6;
+}
+
 /* ========================================
    jasper - Reparadores
 ======================================== */
@@ -332,6 +363,10 @@ button {
 
 .jasper_direita {
     background-color: #FFFFFF;
+}
+
+.jasper h2 {
+    background-color: #fbf0cb;
 }
 
 /* ========================================
@@ -353,6 +388,10 @@ button {
     background-color: #FFFFFF;
 }
 
+.peridot h2 {
+    background-color: #cbeece;
+}
+
 /* ========================================
    rose - Renovadores
 ======================================== */
@@ -370,6 +409,10 @@ button {
 
 .rose_direita {
     background-color: #FFFFFF;
+}
+
+.rose h2 {
+    background-color: #f9d6df;
 }
 
 /* ========================================
@@ -391,6 +434,9 @@ button {
     background-color: #FFFFFF;
 }
 
+.topazio h2 {
+    background-color: #dfc1a1;
+}
 
 /* =============================================================================================================================
    Rodapé
