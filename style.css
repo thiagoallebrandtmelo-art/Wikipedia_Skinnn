@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    color: #2c2a29;
+    color: #2B2B2B;
     background-color: #eaeaea;
 }
 
@@ -15,11 +15,11 @@ body {
    Navbar
 ============================================================================================================================= */
 header {
-    background-color: #eeeded;
+    background-color: #a13c3c;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 40px;
+    padding: 15px 40px;
 }
 
 .logo {
@@ -34,39 +34,34 @@ nav {
 }
 
 nav a{
+    letter-spacing: 1px;
     text-decoration: none;
-    color: rgb(57, 57, 57);
     font-size: 18px;
     transition: 0.3s;
     font-style: italic;
 }
 
 nav a:hover {
-    color: #000000;
     font-size: 23px;
-    
 }
 
 button {
     justify-content: left;
     align-items: left;
-    background-color: #c7c7c7;
-    color: rgb(0, 0, 0);
+    background: rgba(255, 255, 255, 0.4); 
+    backdrop-filter: blur(6px);
     border: none;
     padding: 10px 20px;
     border-radius: 50px;
     cursor: pointer;
 }
 
-
 /* =============================================================================================================================
    Tela Inicial
 ============================================================================================================================= */
 .parallax {
     height: 100vh; /* altura da tela */
-    
     background-image: url("assets/home.png");
-
     border-radius: 15px;
     box-shadow: 0 0px 50px rgba(0, 0, 0, 100000000000000000000000000000);
     background-size: cover;
@@ -188,15 +183,15 @@ button {
    Cards da Camadas da pele
 ======================================== */
 .card_epiderme {
-    background-color: #cbcbcb  ;
+    background-color: #F4EAE1  ;
 }
 
 .card_derme {
-    background-color: #cbcbcb  ;
+    background-color: #E6D5C3  ;
 }
 
 .card_hipoderme {
-    background-color: #cbcbcb  ;
+    background-color: #D2B48C  ;
 }
 /* ========================================
    Cards de montar a rotina
@@ -208,14 +203,27 @@ button {
 .card_rotina {
     background-color: #b8b8b8;
 }
+
+.card_tipo-da-pele {
+    background-color: #FAF9F6;
+}
+
+.card_necessidade-da-pele {
+    background-color: #E2ECE9;
+}
+
+.card_rotina-basica {
+    background-color: #EAF2F8;
+}
 /* ========================================
    Cards da parte de mitos e verdades
 ======================================== */
 .cards_mito-verdade {
     display: flex;
 }
+
 .card_mito {
-    background-color: #efb4b4;
+    background-color: #FADBD8;
     flex: 1;
 }
 
@@ -225,15 +233,17 @@ button {
 }
 
 .card_verdade {
-    background-color: #b4efb4;
-   flex: 1;
+    background-color: #D4EFDF;
+    flex: 1;
 }
 
 .card_verdade li {
     font-weight: bold;
     padding: 2px
 }
-
+/* ========================================
+   Parte do protetor solar
+======================================== */
 .protetor_solar {
     font-size: 17px
 }
@@ -266,7 +276,7 @@ button {
 }
 
 .lado-texto h1 {
-    color: #232323;
+    color: #2B2B2B;
     font-size: 70px;
     font-family: 'Cormorant Garamond', serif;
     font-style: italic;
@@ -337,14 +347,25 @@ button {
    Alguns detalhes para cada tela expecifica
 ============================================================================================================================= */
 /* ========================================
+   diamante - Home
+======================================== */
+.diamante header {
+    background-color: #252627;
+}
+
+.diamante nav a {
+    color: #E5E5E5;
+}
+
+/* ========================================
    safira - Hidratantes
 ======================================== */
 .safira {
-    background-color: #E6F0FA  ;
+    background-color: #E6F0FA;
 }
 
 .safira_esquerda {
-    background-color: #0F2C59 ;
+    background-color: #0F2C59;
 }
 
 .safira_esquerda a {
@@ -352,11 +373,23 @@ button {
 }
 
 .safira_direita {
-    background-color: #FFFFFF ;
+    background-color: #FFFFFF;
 }
 
 .safira h2 {
     background-color: #d1e4f6;
+}
+
+.safira header {
+    background-color: #1B2A4A;
+}
+
+.safira nav a {
+    color: #E6F2F7;
+}
+
+.safira_background {
+    background-color: #F0F8FF;
 }
 
 /* ========================================
@@ -382,6 +415,18 @@ button {
     background-color: #fbf0cb;
 }
 
+.jasper header {
+    background-color: #3D2B1F;
+}
+
+.jasper nav a {
+    color: #FFF9E6;
+}
+
+.jasper_background {
+    background-color: #fffee2;
+}
+
 /* ========================================
    peridot - Oleosidade
 ======================================== */
@@ -403,6 +448,18 @@ button {
 
 .peridot h2 {
     background-color: #cbeece;
+}
+
+.peridot header {
+    background-color: #233627;
+}
+
+.peridot nav a {
+    color: #F0F9F4;
+}
+
+.peridot_background {
+    background-color: #F5FFFA;
 }
 
 /* ========================================
@@ -428,6 +485,18 @@ button {
     background-color: #f9d6df;
 }
 
+.rose header {
+    background-color: #4A2831;
+}
+
+.rose nav a {
+    color: #FDF2F4;
+}
+
+.rose_background {
+    background-color: #FFF0F5;
+}
+
 /* ========================================
    topazio - Antixiodantes
 ======================================== */
@@ -449,6 +518,18 @@ button {
 
 .topazio h2 {
     background-color: #dfc1a1;
+}
+
+.topazio header {
+    background-color: #4A3525;
+}
+
+.topazio nav a {
+    color: #F5EBE6;
+}
+
+.topazio_background {
+    background-color: #F7F0EA;
 }
 
 /* =============================================================================================================================
