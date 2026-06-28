@@ -245,11 +245,26 @@ button {
    Parte do protetor solar
 ======================================== */
 .protetor_solar {
-    font-size: 17px
+    display: flex;
+    gap: 20px;
+    font-size: 14px;
+
+}
+
+.protetor_solar img {
+    height: 300px;
 }
 
 .protetor_solar h3 {
     padding-top: 10px
+}
+
+.protetor_solar option {
+    width: 10px
+}
+
+.protetor_solar select {
+    width: 10px
 }
 
 /* =============================================================================================================================
