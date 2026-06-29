@@ -60,17 +60,14 @@ button {
    Tela Inicial
 ============================================================================================================================= */
 .parallax {
-    height: 100vh; /* altura da tela */
+    height: 100vh; 
     background-image: url("assets/home.png");
     border-radius: 15px;
     box-shadow: 0 0px 50px rgba(0, 0, 0, 100000000000000000000000000000);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
-    /* efeito parallax */
     background-attachment: fixed;
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -80,7 +77,7 @@ button {
     background: rgba(255, 255, 255, 0.15); /* Branco bem transparente */
     backdrop-filter: blur(6px);           /* Desfoca a imagem por trás */
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.05);
-    color: #000;                           /* Mantém a cor da fonte escura */
+    color: #000;                          
     padding: 15px;
     font-size: 50px;
     letter-spacing: 2px;
@@ -248,23 +245,12 @@ button {
     display: flex;
     gap: 20px;
     font-size: 14px;
-
 }
 
 .protetor_solar img {
     height: 300px;
-}
-
-.protetor_solar h3 {
-    padding-top: 10px
-}
-
-.protetor_solar option {
-    width: 10px
-}
-
-.protetor_solar select {
-    width: 10px
+    box-shadow: 0 0px 50px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
 }
 
 /* =============================================================================================================================
@@ -277,17 +263,16 @@ button {
 ======================================== */
 .container-split {
     display: flex;
-    width: 100vw;       /* Ocupa 100% da largura da tela */
-    height: 100vh;      /* Ocupa 100% da altura da tela */
+    width: 100vw;      
+    height: 100vh;     
 }
 
-/* Configuração do lado esquerdo (Texto) */
 .lado-texto {
-    flex: 1;            /* Ocupa metade do espaço */
+    flex: 1;            
     display: flex;
-    flex-direction: column; /* Alinha os textos um embaixo do outro */
-    justify-content: center; /* Centraliza verticalmente */
-    align-items: center;     /* Centraliza horizontalmente */
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;    
 }
 
 .lado-texto h1 {
@@ -297,22 +282,17 @@ button {
     font-style: italic;
 }
 
-/* Configuração do lado direito (Imagem) */
 .lado-imagem {
-    flex: 1;            /* Ocupa a outra metade do espaço */
-    overflow: hidden;   /* Garante que a imagem não saia da caixa */
+    flex: 1;            
+    overflow: hidden;  
 }
 
-/* Faz a imagem preencher o lado dela perfeitamente sem distorcer */
 .lado-imagem img {
     width: 100%;
     height: 100%;
-    object-fit: cover;  /* Corta e ajusta a imagem de forma inteligente */
+    object-fit: cover; 
     border-radius: 25px;
-
 }
-
-
 
 /* ========================================
    Soções dos produtos dentro do site
@@ -321,27 +301,25 @@ button {
     display: flex;
 }
 
-/* Configuração do Menu Lateral (Coluna Esquerda) */
 .sidebar {
     box-shadow: -2px 0px 10px rgba(0, 0, 0, 0.5);
-    width: 250px; /* Largura fixa para o menu */
+    width: 250px; 
     padding: 20px;
     border-right: 1px solid #e0e0e0;
     position: sticky;
-    top: 0; /* Cola o menu bem no topo da tela ao rolar */
+    top: 0; 
     height: max-content;
 }
 
 .sidebar a {
-    display: block; /* Faz cada link ficar em uma linha nova */
+    display: block; 
     padding: 10px 0;
     text-decoration: none;
 }
 
-/* Configuração do Conteúdo (Coluna Direita) */
 .conteudo-principal {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-    flex: 1; /* Ocupa todo o resto do espaço disponível na tela */
+    flex: 1; 
     background-color: #ededed;
     font-size: 17px;
     padding: 5px;
@@ -354,8 +332,8 @@ button {
 }
 
 .ativo-secao {
-    margin-bottom: 60px; /* Dá um espaço grande entre um ativo e outro */
-    scroll-margin-top: 20px; /* Evita que o título do ingrediente fique colado no topo da tela */
+    margin-bottom: 60px; 
+    scroll-margin-top: 20px;
 }
 
 /* =============================================================================================================================
